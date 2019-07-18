@@ -1,6 +1,5 @@
 #!/bin/bash
 id
-
 cd /home/kessler/paas-labs/ofer-cd
 
 export KUBECONFIG=$PWD/kubeconfig
