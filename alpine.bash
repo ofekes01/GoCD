@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 id
 cd /home/kessler/paas-labs/ofer-cd
 
