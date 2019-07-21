@@ -28,7 +28,7 @@ splatt apply chart ${HOME}/pipelines/${GO_PIPELINE_NAME}/${CHART_NAME}
 ;;
 'status')
 echo "Check Chart status "
-splatt helm status  ${HOME}/pipelines/${GO_PIPELINE_NAME}/${CHART_NAME}
+splatt helm status  ${CHART_NAME}
 ;;
 'render')
 echo "Render Chart  "
