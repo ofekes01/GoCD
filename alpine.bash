@@ -19,7 +19,8 @@ echo $CHART_NAME
 if [ -z $CHART_NAME ]; then
 	echo "no chart name"
 else
-	splatt apply chart $CHART_NAME
+	echo ${PWD}
+	splatt apply chart ${PWD}/$CHART_NAME
 fi
 
 
