@@ -20,7 +20,7 @@ if [ -z $CHART_NAME ]; then
 	echo "no chart name"
 else
 	env
-	splatt apply chart ${HOME}/pipelines/${CHART_DIR}/${CHART_NAME}
+	splatt apply chart ${HOME}/pipelines/${GO_PIPELINE_NAME}/${CHART_NAME}
 fi
 
 
