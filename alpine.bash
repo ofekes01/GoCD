@@ -13,5 +13,3 @@ splatt kubectl -n gocd get all
 
 echo "Helm list"
 helm list
-
-exit
